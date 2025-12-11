@@ -1,0 +1,99 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+
+###############
+## Unity generated ##
+###############
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+# But generally, keep .meta files
+*.pidb
+*.mdb
+*.svd
+
+# Crash reports
+sysinfo/
+
+# Unity Collaborate
+.collab/
+
+# Cache
+[Dd]ebug/
+*.stackdump
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# VS Code
+.vscode/
+
+# Gradle
+.gradle/
+*.gradle/
+
+# Android op files
+*.apk
+*.aar
+
+# Auto-generated Jetbrains Rider plugin
+*.unitypackage
+
+#################
+## OS generated ##
+#################
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+##############
+## Builds ##
+##############
+
+*.apk
+*.aab
+*.xcodeproj/
+*.xcworkspace/
+
+################
+## TextMesh Pro ##
+################
+
+TextMesh Pro/*/Resources/*.asset
+
+########################
+## Unity Build Cache ##
+########################
+
+[Ll]ibrary/PackageCache/
+Assets/StreamingAssets/aa/*
